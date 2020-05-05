@@ -137,9 +137,6 @@
 \theoremstyle{claim}
 \newtheorem{claim}{Claim}[exr]
 
-\theoremstyle{remark}
-\newtheorem{rem}[-thm]{Remark}
-
 \newcommand{\nb}[1]{{\color{Maroon}{$\star$ #1 $\star$}}}
 
 \newenvironment{theorem}{
@@ -178,6 +175,10 @@
 }{%
   \popQED\endtrivlist\@endpefalse \medskip
 }
+\makeatother
+
+
+\newenvironment{rem}{\textit{Remark}.}{}
 \makeatother
 %----------------------------------------------------------------------------------------
 %	DOCUMENT MARGINS
