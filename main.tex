@@ -1,6 +1,11 @@
 
 \documentclass{article}
 
+\usepackage[english]{babel}
+\usepackage[square,numbers]{natbib}
+\bibliographystyle{plainnat}
+\setcitestyle{authoryear}
+
 \usepackage{daniels}
 % Includes
 %   amsmath
@@ -67,12 +72,10 @@ This is an exercise.
     \end{claim}
 \end{exr}
 
+\section{Citations}
+Citations are in author-year format with Natbib, like so: \citep{lamport1994latex}.
 \section{Numbering Demonstration}
 Aliquam arcu turpis, ultrices sed luctus ac, vehicula id metus. Morbi eu feugiat velit, et tempus augue. Proin ac mattis tortor. Donec tincidunt, ante rhoncus luctus semper, arcu lorem lobortis justo, nec convallis ante quam quis lectus. Aenean tincidunt sodales massa, et hendrerit tellus mattis ac. Sed non pretium nibh.
-\begin{theorem}
-Theorem theorem theorem.
-\end{theorem}
-Donec cursus maximus luctus. Vivamus lobortis eros et massa porta porttitor.
 
 \begin{theorem}
 Theorem theorem theorem.
@@ -136,4 +139,6 @@ sys.stdout.write("Hello World!\n")
 	\end{verbatim}
 \end{commandline}
 
+\newpage
+\bibliography{citations}
 \end{document}
