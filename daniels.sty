@@ -170,7 +170,7 @@
 \newtheorem{-thm}{Theorem}[section]
 \newtheorem{-prop}[-thm]{Proposition}
 \newtheorem{-lem}[-thm]{Lemma}
-\newtheorem{-cor}[-thm]{Corollary}
+\newtheorem{-corr}[-thm]{Corollary}
 
 \theoremstyle{definition}
 \newtheorem{dfn}[-thm]{Definition}
@@ -180,7 +180,7 @@
 
 \newcommand{\nb}[1]{{\color{Maroon}{$\star$ #1 $\star$}}}
 
-\newenvironment{theorem}{
+\newenvironment{thm}{
     	\begin{mdframed}[style=callout]
     	\begin{-thm}
 	}
@@ -192,13 +192,13 @@
 	}
     { \end{-prop} \end{mdframed} \vspace{-4px}}
     
-\newenvironment{lemma}{
+\newenvironment{lem}{
     	\begin{mdframed}[style=callout]
     	\begin{-lem}
 	}
     { \end{-lem} \end{mdframed} \vspace{-4px}}
 
-\newenvironment{cor}{
+\newenvironment{corr}{
     	\begin{mdframed}[style=callout]
     	\begin{-cor}
 	}
